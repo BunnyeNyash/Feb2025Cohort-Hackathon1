@@ -294,7 +294,7 @@ nav .contact-btn:hover a {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animate-gradient 2.5s linear infinite;
+    animation: animate-gradient 1.5s linear infinite;
     margin-right: 10px;
 }
 
