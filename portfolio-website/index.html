@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunnye Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <video autoplay loop muted plays-inline class="back-vid">
+        <source src="./images/video.mp4" type="video/mp4">
+    </video>
+
+    <div class="main-section">
+        <nav>
+            <h1 data-aos="zoom-in" data-aos-duration="1000">Bosibori.</h1>
+            <ul>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a class="active" href="#home">Home</a>
+                </li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About</a></li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#services">Services</a></li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#skills">Skills</a></li>
+                <li class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#contact">Contact Us</a></li>
+            </ul>
+        
+            <!-- Hamburger Icon (Boxicons) -->
+            <i class="bx bx-menu hamburg" onclick="toggleMenu()"></i>
+        
+            <!-- Dropdown menu (hidden by default) -->
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact Us</a>
+                    <i class="bx bx-x cancel" onclick="toggleMenu()"></i>
+                </div>
+            </div>
+        </nav>
+
+        <section id="home" class="hero">
+            <div class="hero-info">
+                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">Hi, it's Bosibori</h1>
+                <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">I'm a Virtual Assistant</h2>
+                <br />
+                <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1000">Professional virtual assistant with expertise in administrative support, project management, and client communication. Dedicated to helping businesses streamline their operations.</p>
+                <div class="Buttons">
+                    <button class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1100"><a href="#contact">Hire Me</a></button>
+                    <ul class="ul-icons">
+                        <li><a href="https://github.com/BunnyeNyash" target="_blank" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200"><i class='bx bxl-github'></i></a></li>
+                        <li><a href="https://x.com/tf_bunnye" target="_blank" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300"><i class='bx bxl-twitter'></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/bosiboriotachi-6a1a46218" target="_blank" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400"><i class='bx bxl-linkedin'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hero-img" data-aos="zoom-in-left" data-aos-duration="2500">
+                <img src="./images/profile-pic.png" alt="person-img">
+            </div>
+        </section>
+
+        <div class="info-sec">
+            <div class="info-card" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1600">
+                <h1>1+</h1>
+                <p>Years of <br> Experience</p>
+            </div>
+            <div class="info-card" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1700">
+                <h1>7+</h1>
+                <p>Technical <br> Skills</p>
+            </div>
+            <div class="info-card" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1800">
+                <h1>20+</h1>
+                <p>Projects <br> Completed</p>
+            </div>
+            <div class="info-card" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1900">
+                <h1>30+</h1>
+                <p>Satisfied <br> Clients</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section" data-aos="fade-up">
+        <div class="about-content">
+            <!-- <div class="about-img" data-aos="fade-right">
+                <img src="./images/profile-pic.png"
+                    alt="Bosi Profile">
+            </div> -->
+            <div class="about-text" data-aos="fade-left">
+                <h2>ABOUT ME
+                    <hr>
+                </h2>
+                <div class="intro">
+                    <p style="align-self: center;">Hey there! I'm <span style="font-weight: 500;">Otachi Bosibori</span>, a tech-savvy virtual assistant with a strong background in finance, a growing expertise in Software Engineering and Data Science, and a passion for efficiency. I thrive on helping businesses stay organized, manage tasks efficiently, and streamline operations using the best tools and strategies. Whether it's data management, administrative support, or optimizing workflows, I specialize in making work easier so entrepreneurs and professionals can focus on what truly matters.</p>
+                    
+                    <p>My journey began when I realized how technology could simplify work and finances, and I've been hooked ever since. Overtime, I've built expertise in efficient scheduling, data entry and analysis, email and calendar management, and social media content creation. I'm detail-oriented, proactive, and excellent at handling tasks that free up time for busy professionals.</p>
+                </div>
+
+                <div class="Buttons">
+                    <button class="btn"><a href="https://drive.google.com/file/d/1Yj8xYmDk4L8iqUqP-y3QBc8ro1HLtPo4/view?usp=sharing" target="_blank">Grab my CV</a></button>
+                </div><br /><br />
+
+
+                <div class="about-text" class="intro">
+                    <h2>What I Do</h2>
+                    <p class="hello">I specialize in helping entrepreneurs, startups, and business executives optimize their time and productivity by handling essential but time-consuming tasks. If you're looking for a reliable and resourceful Virtual Assistant to keep your operations running smoothly while you focus on growth, <span style="font-weight: 500;">let's connect.</span> I'd love to help!</p>
+                </div><br/><br/>
+
+                <div class="about-text">
+                    <h2>Interests
+                        <hr>
+                    </h2>
+
+                    <p class="hello">Beyond my work as a Virtual Assistant, I have a strong interest in FinTech <span style="font-weight: 500;">(Finance + Technology)</span> and Business Innovation. I love exploring how businesses can improve their operations, manage finances effectively, and leverage smart strategies for growth. I'm also deeply curious about software engineering, and I enjoy learning how different technologies can be used to solve real-world problems.
+                
+                    <p class="hello">Oh, and when I'm not geeking out over numbers and tech, you'll probably find me either lost in a good novel <span style="font-weight: 500;">(Psst: Lets's not talk about the genre)</span>, diving into something to do with personal development, and or obsessing over anything to do with Art, Craft or Music ...</p>
+                </div>
+
+                <h5 class="section-title" style="font-size: 1.7rem; font-weight: 550;">EDUCATION BACKGROUND</h5>
+                <div class="education-container">
+                    <div class="service-card" id="education" data-aos="fade-up" data-aos-delay="100">
+                        <div class="year">2020 - 2024</div>
+                        <br />
+                        <p style="font-weight: bold;">BACHELOR OF COMMERCE</p>>
+                        <p style="font-weight: 600;">FINANCE</p><br />
+                        <p>KIRINYAGA UNIVERSITY</p>
+                    </div>
+
+                    <div class="service-card" id="education" data-aos="fade-up" data-aos-delay="200">
+                        <div class="year">2024</div>
+                        <br />
+                        <p style="font-weight: bold;">VIRTUAL ASSISTANT</p>>
+                        <p>ALX Africa</p><br />
+                    </div>
+                    <div class="service-card" id="education" data-aos="fade-up" data-aos-delay="300">
+                        <div class="year">2025</div>
+                        <br />
+                        <p style="font-weight: bold;">SOFTWARE ENGINEERING</p>>
+                        <p style="font-weight: semi;">PLP Academy</p><br />
+                        <p>ONGOING</p>
+                    </div>
+                    <div class="service-card" id="education" data-aos="fade-up" data-aos-delay="400">
+                        <div class="year">2025 - 2026</div>
+                        <br />
+                        <p style="font-weight: bold;">DATA SCIENCE</p>>
+                        <p>ALX Africa</p><br />
+                        <p>ONGOING</p>
+                    </div>
+                    <!-- <div class="service-card" id="education" data-aos="fade-up" data-aos-delay="500">
+                        <div class="year">2023</div>
+                        <br/>
+                        <p style="font-weight: bold;">BACHELOR OF COMMERCE</p>>
+                        <p>FINANCE</p><br/>
+                        <p>KIRINYAGA UNIVERSITY</p>
+                    </div>
+                    <div class="service-card" id="education" data-aos="fade-up" data-aos-delay="600">
+                        <div class="year">2023</div>
+                        <br/>
+                        <p style="font-weight: bold;">BACHELOR OF COMMERCE</p>>
+                        <p>FINANCE</p><br/>
+                        <p>KIRINYAGA UNIVERSITY</p>
+                    </div>
+                    <div class="service-card" id="education" data-aos="fade-up" data-aos-delay="700">
+                        <div class="year">2023</div>
+                        <br/>
+                        <p style="font-weight: bold;">BACHELOR OF COMMERCE</p>>
+                        <p>FINANCE</p><br/>
+                        <p>KIRINYAGA UNIVERSITY</p> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section" data-aos="fade-up">
+        <h2 class="section-title">What I bring to the Table</h2>
+        <div class="services-grid">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-icon">
+                    <i class='bx bx-calendar'></i>
+                </div>
+                <h3>Administrative Support</h3>
+                <p>Comprehensive administrative services including email management, calendar organization, travel
+                    planning, and document preparation to keep your business running smoothly.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-icon">
+                    <i class='bx bx-data'></i>
+                </div>
+                <h3>Data Management</h3>
+                <p>Efficient data entry, database management, in-depth analysis, and clear report generation to ensure
+                    your information is accurate, up-to-date, and easily accessible.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-icon">
+                    <i class='bx bx-chat'></i>
+                </div>
+                <h3>Customer Support</h3>
+                <p>Professional customer service including email responses, live chat support, and client communication
+                    management.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-icon">
+                    <i class='bx bx-spreadsheet'></i>
+                </div>
+                <h3>Project Coordination</h3>
+                <p>End-to-end project management support including task tracking, deadline monitoring, and team
+                    coordination.
+                </p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-icon">
+                    <i class='bx bx-line-chart'></i>
+                </div>
+                <h3>Social Media Management</h3>
+                <p>Strategic social media planning, content creation, content scheduling, and engagement to grow your
+                    online presence.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="service-icon">
+                    <i class='bx bx-search-alt'></i>
+                </div>
+                <h3>Research & Analysis</h3>
+                <p>In-depth market research, competitor analysis, and data interpretation to support your business
+                    decisions.
+                </p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="700">
+                <div class="service-icon">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Custom website development and maintenance to establish your online presence and grow your business.
+                </p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="800">
+                <div class="service-icon">
+                    <i class='bx bx-calculator'></i>
+                </div>
+                <h3>Bookkeeping</h3>
+                <p>Professional financial record keeping and organization to help manage your business finances.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section" data-aos="fade-up">
+        <h2 class="section-title" style="font-weight: bold;">MY Tech and VA Superpowers</h2>
+        <div class="skills-container">
+            <div class="skill-category" data-aos="fade-right">
+                <h3>Software & Tool Proficiency</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Microsoft Office Suite</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Google Workspace</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Communication Tools</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Project Management Tools</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">CRM Software</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Cloud Storage & Collaboration</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Social Media Management Tools</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Accounting Software</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category" data-aos="fade-left">
+                <h3>Soft Skills</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Communication</span>
+                        <span class="skill-percent">98%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 98%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Time Management</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Problem Solving</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Adaptability</span>
+                        <span class="skill-percent">92%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 92%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 py-12 max-w-4xl" id="technical">
+            <h1 class="text-4xl font-bold mb-8 text-center">Technical Skills</h1>
+
+            <div class="skills-grid grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="skill-category">
+                    <h2 class="text-2xl font-semibold mb-4">Programming Languages</h2>
+                    <div class="skill-item">
+                        <i class='bx bxl-html5 skill-icon'></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bxl-css3 skill-icon'></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bxl-javascript skill-icon'></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bxl-python skill-icon'></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bx-data skill-icon'></i>
+                        <span>SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h2 class="text-2xl font-semibold mb-4">Frameworks & Libraries</h2>
+                    <div class="skill-item">
+                        <i class='bx bxl-nodejs skill-icon'></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bxl-tailwind-css skill-icon'></i>
+                        <span>Tailwind CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h2 class="text-2xl font-semibold mb-4">Tools & Platforms</h2>
+                    <div class="skill-item">
+                        <i class='bx bxl-git skill-icon'></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bxl-github skill-icon'></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class='bx bxl-figma skill-icon'></i>
+                        <span>Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects-container">
+            <h2 class="section-title" style="font-size: 1.7rem; font-weight: 550;">PROJECTS</h2>
+            <div class="project" id="project1">
+                <!-- Left Text Section -->
+                <div class="text-section"
+                    style="background-color: aliceblue; border-radius: 20px; box-shadow: 0 0 20px #f18c19; transition: 0.5s;">
+                    <h2>TRAVEL PLANNING</h2>
+                    <h1>Personalized Travel Planning (Mini-Project)</h1>
+                    <hr>
+                    <p>A comprehensive travel pack designed for a 3-day, 3-night trip to a selected destination,
+                        including visaa
+                        requirements, cultural expectations, event information, budget, and itinerary planning.</p>
+                    <br />
+                    <p><strong>Skills/Tools:</strong> Google Slides, Google Sheets, Research, Budgeting, Itinerary
+                        Creation,
+                        Event Planning.</p>
+                </div>
+
+                <!-- Right Image Section -->
+                <div class="image-section">
+                    <a href="https://docs.google.com/presentation/d/1j3CVqJPLTmAUQUIpE5STxW4xgVL_3Z_-itzpliudCNE/edit?usp=sharing"
+                        target="_blank">
+                        <img src="./images/travel-planning.PNG" alt="A travel schedule screenshot from a travel pack">
+                    </a>
+
+                    <!-- Wrap button in a div for proper alignment -->
+                    <div class="button-container">
+                        <button class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1100">
+                            <a href="https://docs.google.com/presentation/d/1j3CVqJPLTmAUQUIpE5STxW4xgVL_3Z_-itzpliudCNE/edit?usp=sharing"
+                                target="_blank">View More</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project" id="project2">
+                <!-- Left Text Section -->
+                <div class="image-section">
+                    <a href="#" target="_blank">
+                        <img src="./images/WEWE9.PNG" alt="A screenshot of the Virtual Assistant Portfolio Website">
+                    </a>
+
+                    <div class="button-container">
+                        <button class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1100">
+                            <a href="#" target="_blank">View More</a>
+                        </button>
+                    </div>
+                </div>
+                <!-- Right Text Section -->
+                <div class="text-section"
+                    style="background-color: aliceblue; border-radius: 20px; box-shadow: 0 0 20px #f18c19; transition: 0.5s;">
+                    <h2>WEB DEVELOPMENT</h2>
+                    <h1>Virtual Assistant Portfolio Website &nbsp; (Mini-Project)</h1>
+                    <hr>
+                    <p>A professional portfolio website designed to showcase virtual assistant services with features
+                        such as
+                        service listings, contact forms, and booking integration. The website is designed to be visually
+                        appealing,
+                        responsive, and user-friendly.</p><br />
+                    <p><strong>Skills/Tools:</strong> HTML, CSS, JavaScript, GitHub Pages/Netlify, Responsive Design,
+                        Web
+                        Development Best Practices</p>
+                </div>
+            </div>
+
+            <div class="project" id="project3">
+                <!-- Left Text Section -->
+                <div class="text-section"
+                    style="background-color: aliceblue; border-radius: 20px; box-shadow: 0 0 20px #f18c19; transition: 0.5s;">
+                    <h2>DATA ANALYSIS</h2>
+                    <h1>Data Analysis & Visualization for Client Research &nbsp; (Mini-Project)</h1>
+                    <hr>
+                    <p>Conducted research and compiled key city statistics for a client attending the annual Mayors'
+                        Conference
+                        in California. The project involved gathering data on city size, number of public parks, and
+                        population,
+                        then visualizing the findings
+                        in Google Sheets.</p><br />
+                    <p><strong>Skills/Tools:</strong> Google Calendar, Google Sheets, Data Research, Data Visualization,
+                        Report
+                        Compilation.</p>
+                </div>
+
+                <!-- Right Image Section -->
+                <div class="image-section">
+                    <a href="https://docs.google.com/spreadsheets/d/1nIEYVP7YeFBbtAvB_9y94jebOmu3GNKNLAt36A2CdW8/edit?usp=sharing"
+                        target="_blank">
+                        <img src="./images/data-analysis.PNG"
+                            alt="A screenshot of the bar chart with data on California's Largest Cities">
+                    </a>
+
+                    <!-- Wrap button in a div for proper alignment -->
+                    <div class="button-container">
+                        <button class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1100">
+                            <a href="https://docs.google.com/spreadsheets/d/1nIEYVP7YeFBbtAvB_9y94jebOmu3GNKNLAt36A2CdW8/edit?usp=sharings"
+                                target="_blank">View More</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project" id="project4">
+                <!-- Left Text Section -->
+                <div class="image-section">
+                    <a href="https://drive.google.com/file/d/1h8KATs_gTX3kl6QtFaNUZYX2-esaer_H/view?usp=sharing"
+                        target="_blank">
+                        <img src="./images/Calendar-Management.PNG"
+                            alt="A screenshot of a populated Google Calendar showing the structured weekly schedule.">
+                    </a>
+
+                    <!-- Wrap button in a div for proper alignment -->
+                    <div class="button-container">
+                        <button class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1100">
+                            <a href="https://drive.google.com/file/d/1h8KATs_gTX3kl6QtFaNUZYX2-esaer_H/view?usp=sharing"
+                                target="_blank">View More</a>
+                        </button>
+                    </div>
+                </div>
+                <!-- Right Text Section -->
+                <div class="text-section"
+                    style="background-color: aliceblue; border-radius: 20px; box-shadow: 0 0 20px #f18c19; transition: 0.5s;">
+                    <h2>CALENDAR MANAGEMENT</h2>
+                    <h1>Efficient Calendar & Time Management &nbsp; (Mini-Project)</h1>
+                    <hr>
+                    <p>A structured approach to managing daily tasks, work, and personal time using Google Calendar.
+                        This
+                        project showcases how I effectively scheduled and balanced my commitments using prioritization
+                        techniques.</p><br />
+                    <p><strong>Skills/Tools:</strong> Google Calendar, Productivity Planning, Prioritization Techniques,
+                        Time
+                        Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section" data-aos="fade-up">
+        <h2 class="section-title">Get In Touch</h2>
+        <p style="font-size: 20px; text-align: center;">For all enquiries & bookings please fill out the contact form
+            below.</p><br /><br />
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h3>Contact Information</h3>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class='bx bx-map contact-icon'></i>
+                        <span class="contact-text">Nairobi, Kenya</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-envelope contact-icon'></i>
+                        <span class="contact-text">otachi.a.bosibori@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-phone contact-icon'></i>
+                        <span class="contact-text">+254 112 390 108</span>
+                    </div><br />
+                </div>
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                    <a href="https://x.com/tf_bunnye" class="social-link"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.linkedin.com/company/otachi-bosibori/" class="social-link"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/smile.with_bunnye" class="social-link"><i
+                            class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+            <div class="contact-form" data-aos="fade-left">
+                <form action="https://formspree.io/f/xgvaljdz" method="POST">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="scroll-up">Back to the Top ⬆</a><br /><br /><br />
+        <p>&copy; 2025 Bunnye Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Active navigation highlighting
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('nav a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+
+        // Toggle the dropdown menu when the hamburger is clicked
+            function toggleMenu() {
+                document.querySelector('.dropdown').classList.toggle('active');
+            }
+    </script>
+</body>
+
+</html>
