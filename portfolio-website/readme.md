@@ -2,6 +2,9 @@
 
 Welcome to the **Bunnye Portfolio Website**! This is a professional, responsive, and visually appealing portfolio designed to showcase the skills, services, and projects of Otachi Bosibori, a tech-savvy Virtual Assistant with expertise in administrative support, project management, and emerging skills in Software Engineering and Data Science. The website serves as a digital hub to connect with potential clients, display my professional journey, and highlight how I can help businesses streamline their operations.
 
+## View the Portfolio
+https://bunnyenyash-portfolio.netlify.app
+
 ## Table of Contents
 
 - [About the Portfolio](#about-the-portfolio)
